@@ -1,0 +1,23 @@
+# AI Public Speaking Training Platform
+
+An interactive web application with three games to improve public speaking skills:
+1. **Rapid Fire Analogies** - Quick creative thinking
+2. **The Conductor** - Energy modulation and vocal variety  
+3. **Triple Step** - Word integration and coherence
+
+## Features
+- Real-time speech recognition
+- AI-powered feedback using Google Gemini
+- Interactive games with live transcription
+- Comprehensive performance analytics
+
+## Technologies Used
+- Backend: Python Flask
+- Frontend: HTML, CSS, JavaScript
+- AI: Google Gemini API
+- Speech Recognition: Web Speech API
+
+## How to Run
+1. Install dependencies: `pip install -r requirements.txt`
+2. Set environment variable: `GEMINI_API_KEY`
+3. Run: `python app.py`

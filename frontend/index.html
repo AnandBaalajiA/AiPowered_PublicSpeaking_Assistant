@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Public Speaking Trainer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <i class="fas fa-microphone-alt"></i>
+                <h1>AI Speech Trainer</h1>
+            </div>
+            <div class="tagline">Master public speaking through AI-powered gamified training</div>
+        </header>
+
+        <div id="menu" class="game-menu">
+            <div class="game-card" onclick="loadGame('game1')">
+                <div class="game-icon">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <h3>Rapid Fire Analogies</h3>
+                <p>Build improvisation & confidence through quick thinking</p>
+                <div class="difficulty">
+                    <span class="badge">Beginner Friendly</span>
+                </div>
+            </div>
+            
+            <div class="game-card" onclick="loadGame('game2')">
+                <div class="game-icon">
+                    <i class="fas fa-wave-square"></i>
+                </div>
+                <h3>The Conductor</h3>
+                <p>Master energy modulation and vocal variety</p>
+                <div class="difficulty">
+                    <span class="badge intermediate">Intermediate</span>
+                </div>
+            </div>
+            
+            <div class="game-card" onclick="loadGame('game3')">
+                <div class="game-icon">
+                    <i class="fas fa-puzzle-piece"></i>
+                </div>
+                <h3>Triple Step</h3>
+                <p>Integration under pressure with distractions</p>
+                <div class="difficulty">
+                    <span class="badge advanced">Advanced</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="game-container" class="game-container"></div>
+        <!-- No global feedback button or div here! -->
+
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/game1.js"></script>
+    <script src="js/game2.js"></script>
+    <script src="js/game3.js"></script>
+    <script src="js/evaluation.js"></script>
+</body>
+</html>
